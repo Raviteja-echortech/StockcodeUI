@@ -12,11 +12,33 @@ export const Exploredata = [
        { name: "Indian railway Finacial", logo: "https://img.etimg.com/thumb/msid-103450115,width-1200,height-900,resizemode-4,imgsize-10650/indian-railway-finance-corporation-share-price-today-live-updates-07-sep-2023.jpg", pricing: "74.95", avg: "-0.65(0.86%)", id: 4 },
 ]
 export const holdingData = [
-       {id:1, names: "Gayathri Sugars", numberOfShares: "4 shares", stockPricing: 92.96, existingPrice: 92.96 },
-       { id:2, names: "Yes Bank", numberOfShares: " 1 shares", stockPricing: 17.10, existingPrice: 17.15 },
+       {id:1, names: "Gayathri Sugars", numberOfShares: "4 shares", stockPricing: 92.96, existingPrice: 92.96, img:"https://c8.alamy.com/comp/J04Y9B/rising-bar-graph-on-grid-3d-illustration-J04Y9B.jpg" },
+       { id:2, names: "Yes Bank", numberOfShares: " 1 shares", stockPricing: 17.10, existingPrice: 17.15,img:"https://practicle.sg/wp-content/uploads/2022/10/bar-graphs-math-question.png" },
+       { id:2, names: "Yes Bank", numberOfShares: " 1 shares", stockPricing: 17.10, existingPrice: 17.15,img:"https://practicle.sg/wp-content/uploads/2022/10/bar-graphs-math-question.png" },
+       { id:2, names: "Yes Bank", numberOfShares: " 1 shares", stockPricing: 17.10, existingPrice: 17.15,img:"https://practicle.sg/wp-content/uploads/2022/10/bar-graphs-math-question.png" },
+       { id:2, names: "Yes Bank", numberOfShares: " 1 shares", stockPricing: 17.10, existingPrice: 17.15,img:"https://practicle.sg/wp-content/uploads/2022/10/bar-graphs-math-question.png" },
+       { id:2, names: "Yes Bank", numberOfShares: " 1 shares", stockPricing: 17.10, existingPrice: 17.15,img:"https://practicle.sg/wp-content/uploads/2022/10/bar-graphs-math-question.png" },
+       { id:2, names: "Yes Bank", numberOfShares: " 1 shares", stockPricing: 17.10, existingPrice: 17.15,img:"https://practicle.sg/wp-content/uploads/2022/10/bar-graphs-math-question.png" },
+       { id:2, names: "Yes Bank", numberOfShares: " 1 shares", stockPricing: 17.10, existingPrice: 17.15,img:"https://practicle.sg/wp-content/uploads/2022/10/bar-graphs-math-question.png" },
 ]
 export const OrderData=[
-       {id:1, investedStockNames:"Yes Bank" ,time:"11:40 Am",status:"Buy",numberOfShares: 1 ,avg:"17.15"},
-       {id:2, investedStockNames:"Gayathri Sugar",time:"9:55 Am",status:"Buy", numberOfShares: 4 ,avg:"23.24" },
-       {id:3, investedStockNames:"Gayathri Sugar",time:"8:15 Pm",status:"Buy",numberOfShares: 4,avg:"23.25" }
+       {id:1, investedStockNames:"Yes Bank" ,time:"11:40 Am",status:"BUY",numberOfShares: 1 ,avg:"17.15"},
+       {id:2, investedStockNames:"Gayathri Sugar",time:"9:55 Am",status:"BUY", numberOfShares: 4 ,avg:"23.24" },
+       {id:3, investedStockNames:"Gayathri Sugar",time:"8:15 Pm",status:"BUY",numberOfShares: 4,avg:"23.25" },
+
+]
+export const  Enums={
+       Explore:"Explore",
+       Holdings:"Holdings",
+       Orders:"Orders",
+       WatchList:"My WatchList",
+       List:"+ WatchList",
+}
+export const stockList=[
+       {industrieName:"Tata Steel",stockPrice:125.85, profitLoss:"+ 0.9(0.72%)"},
+       {industrieName:"Coal India",stockPrice:307.60, profitLoss:"+5.75(0.72%)"},
+       {industrieName:"Indus Towers",stockPrice:194.70, profitLoss:"+ 1.90(0.99%)"},
+       {industrieName:"PNB",stockPrice:75.95, profitLoss:"-0.10(0.72%)"},
+       {industrieName:"Zomato",stockPrice:110.20, profitLoss:"+ 1.20(1.10%)"},
+       {industrieName:"Edit WatchList", stockPrice:"Add Stock", givegreen:true},
 ]

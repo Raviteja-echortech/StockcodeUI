@@ -11,11 +11,14 @@ export const Styles = ScaledSheet.create({
     commanDangerColor: {
         color: "red"
     },
-
+   commonLiteColors:{
+      color:"rgba(120, 120, 120,0.8)"
+   },
+ 
     // comman Fonts End
     mainpage: {
-        flexGrow: 1,
-        backgroundColor: "black",
+         flexGrow: 1,
+        backgroundColor: "black",    
 
     },
     headerarr: {
@@ -27,6 +30,8 @@ export const Styles = ScaledSheet.create({
         flexDirection: "row",
         justifyContent: "space-between",
         marginTop: "10@s",
+        width:"90%",
+        alignSelf:"center"
 
     },
     logo: {
@@ -42,14 +47,13 @@ export const Styles = ScaledSheet.create({
 
     },
     nifty: {
-        width: "40%",
         height: "70@s",
         borderWidth: "1@s",
         borderColor: "white",
         marginRight: "10@s",
         borderRadius: "10@s",
         justifyContent: "center",
-        paddingLeft: "15@s"
+        padding: "20@s"
     },
     niftyTxt: {
         color: "white",
@@ -64,8 +68,7 @@ export const Styles = ScaledSheet.create({
         marginTop: "30@s",
     },
     namesTxt: {
-        color: "white",
-        fontSize: 16,
+        fontSize: 13,
         textAlign: "center"
     },
     stockTxt: {
@@ -80,10 +83,10 @@ export const Styles = ScaledSheet.create({
         alignItems: "center"
     },
     nameLetter: {
-        width: "35@s",
-        height: "35@s",
-        borderRadius: "17@s",
-        backgroundColor: "blue",
+        width: "30@s",
+        height: "30@s",
+        borderRadius: "15@s",
+        backgroundColor: "#4169E1",
         justifyContent: "center",
         alignItems: "center"
     },
@@ -108,10 +111,13 @@ export const Styles = ScaledSheet.create({
         color: "white"
     },
     growwTxt: {
-        color: "white", fontSize: 18, marginLeft: "3%"
+        color: "white", 
+        fontSize: "18@s", 
+        marginLeft: "3%"
     },
     containtExplore: {
-        backgroundColor: 'black', padding: '3%'
+        backgroundColor: 'black', 
+        padding: '3%'
     },
 
 
@@ -125,43 +131,86 @@ export const Styles = ScaledSheet.create({
     },
     holdingIndex: {
         borderWidth: "1@s",
-        borderColor: "white",
-        paddingHorizontal: "10@s",
-        paddingVertical: "10@s",
-
+        borderColor: "rgba(120, 120, 120,0.8)",
+        // paddingHorizontal: "10@s",
+        // paddingVertical: "10@s",
+        padding:'3%',
+        justifyContent:"center",
+        //backgroundColor:"yellow",
         width: "95%",
         marginTop: "10@s",
         alignSelf: "center",
         borderRadius: "10@s"
     },
-    holderIndexinner: {
-        alignSelf: "center",
-        marginBottom: "10@s",
-    },
+    // holderIndexinner: {
+    //     alignSelf: "center",
+    //     marginBottom: "10@s",
+    //     backgroundColor:'red'
+    // },
 
     holdingBoxArrangment: {
         flexDirection: "row",
-        justifyContent: "space-between"
+        justifyContent: "space-between",
+        // backgroundColor:'green',
+        height:50,
+
+        width:'100%',
+         alignItems:'center',
+        // padding
     },
     investMents: {
         flexDirection: "row",
         justifyContent: "space-between",
-        marginTop: "30@s",
+        height:'70@s',
         width: "95%",
         alignSelf: "center",
         borderWidth: "1@s",
-        marginBottom: "10@s",
-        paddingBottom: "10@s",
-        borderBottomColor: "rgba(120, 120, 120,0.8)"
+        // marginHorizontal: "10@s",
+        // paddingBottom: "10@s",
+        borderBottomColor: "rgba(120, 120, 120,0.8)",
+         alignItems:'center',
     },
     OpenCloseGraphBar: {
         flexDirection: "row",
         justifyContent: "center",
-        alignItems: "center"
+        alignItems: "center",
+        alignSelf:"flex-end",
+        
     },
     verifyBox: {
         justifyContent: "center", 
         alignItems: "center"
-    }
+    },
+    statusTxt:{
+        color:"green", 
+        alignSelf:"flex-end"
+    },
+    circleBox:{
+        width:"10@s",
+        height:"10@s",
+        borderRadius:"5@s",
+        backgroundColor:"green"
+       
+    },
+   //orderBox
+     
+   headerMatter:{
+    marginTop: "20@s", 
+    width: "95%", 
+    alignSelf: "center",
+    height:"35@s"
+   },
+   //watchListcss
+    watchListStart:{
+        marginTop: "30@s", 
+        width: "95%", 
+        alignSelf: "center",
+        height:"50@s",
+        justifyContent:'center'
+    } ,
+   
+
+
+
 
 })

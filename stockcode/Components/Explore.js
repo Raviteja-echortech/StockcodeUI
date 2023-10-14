@@ -22,6 +22,9 @@ const Explore=()=>{
            keyExtractor={(item, id) => id}    
         />
     </View>
+    <View>
+      
+    </View>
    </View>
    ) 
 }
