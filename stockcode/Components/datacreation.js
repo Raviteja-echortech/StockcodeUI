@@ -5,6 +5,12 @@ export const dataCreation = [
        { names: "My WatchList", id: 4 },
        { names: "+ Watchlist", id: 5 },
 ]
+
+
+export const bankData=[]
+
+
+
 export const Exploredata = [
        { name: "Zomato", logo: "https://i.pinimg.com/originals/1a/17/ed/1a17ed134ffeb3461f5d0f3ca0ee227d.png", pricing: "110.25", avg: "+1.25(1.15%)", id: 1 },
        { name: "Infibeam Avenues", logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYElkYYLTpUyepKAAV49lciDCkk0fTIEIB3Q&usqp=CAU", pricing: "21.80", avg: "+1.25(1.15%)", id: 2 },
@@ -13,7 +19,6 @@ export const Exploredata = [
 ]
 export const holdingData = [
        {id:1, names: "Gayathri Sugars", numberOfShares: "4 shares", stockPricing: 92.96, existingPrice: 92.96, img:"https://c8.alamy.com/comp/J04Y9B/rising-bar-graph-on-grid-3d-illustration-J04Y9B.jpg" },
-       { id:2, names: "Yes Bank", numberOfShares: " 1 shares", stockPricing: 17.10, existingPrice: 17.15,img:"https://practicle.sg/wp-content/uploads/2022/10/bar-graphs-math-question.png" },
        { id:2, names: "Yes Bank", numberOfShares: " 1 shares", stockPricing: 17.10, existingPrice: 17.15,img:"https://practicle.sg/wp-content/uploads/2022/10/bar-graphs-math-question.png" },
        { id:2, names: "Yes Bank", numberOfShares: " 1 shares", stockPricing: 17.10, existingPrice: 17.15,img:"https://practicle.sg/wp-content/uploads/2022/10/bar-graphs-math-question.png" },
        { id:2, names: "Yes Bank", numberOfShares: " 1 shares", stockPricing: 17.10, existingPrice: 17.15,img:"https://practicle.sg/wp-content/uploads/2022/10/bar-graphs-math-question.png" },
@@ -32,13 +37,14 @@ export const  Enums={
        Holdings:"Holdings",
        Orders:"Orders",
        WatchList:"My WatchList",
-       List:"+ WatchList",
+       List:"+ Watchlist"
 }
+
 export const stockList=[
        {industrieName:"Tata Steel",stockPrice:125.85, profitLoss:"+ 0.9(0.72%)"},
        {industrieName:"Coal India",stockPrice:307.60, profitLoss:"+5.75(0.72%)"},
        {industrieName:"Indus Towers",stockPrice:194.70, profitLoss:"+ 1.90(0.99%)"},
        {industrieName:"PNB",stockPrice:75.95, profitLoss:"-0.10(0.72%)"},
        {industrieName:"Zomato",stockPrice:110.20, profitLoss:"+ 1.20(1.10%)"},
-       {industrieName:"Edit WatchList", stockPrice:"Add Stock", givegreen:true},
+       {editStock:"Edit WatchList", add:"Add Stock" },
 ]
