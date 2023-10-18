@@ -1,6 +1,5 @@
 import { View, SafeAreaView, Text, Image, FlatList, TouchableOpacity, StatusBar, Dimensions,Button  } from "react-native"
-import RBSheet from "react-native-raw-bottom-sheet";
-import React, { useState, useRef } from "react"
+import React from "react"
 import Search from "../assest/Search.svg"
 import Qrcode from "../assest/Qrcode.svg"
 import { Styles } from "./styles"

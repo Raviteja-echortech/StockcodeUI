@@ -54,7 +54,7 @@ export const Styles = ScaledSheet.create({
     nifty: {
         height: "70@s",
         borderWidth: "1@s",
-         width:"45%",
+        width: "45%",
         borderColor: "rgba(120,120, 120, 1)",
         borderRadius: "10@s",
         justifyContent: "center",
@@ -135,7 +135,7 @@ export const Styles = ScaledSheet.create({
         backgroundColor: 'black',
         padding: '3%',
         //width:Dimensions.get("window").width*0.95,
-      
+
     },
 
 
@@ -291,8 +291,16 @@ export const Styles = ScaledSheet.create({
     },
     BottomSheetBtn: {
         backgroundColor: "rgb(60, 60, 60)",
-         flexGrow: 1,
+        flexGrow: 1,
     },
 
-
+    CustomForms: {
+        width: "90%",
+        backgroundColor:"gray",
+        borderRadius:"10@s",
+        padding:"15@s",
+        alignSelf:"center",
+        marginBottom:"10@s",
+        marginTop:"30@s"
+    }
 })

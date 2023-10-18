@@ -15,36 +15,41 @@ const Bottombar = () => {
     const Tab = createBottomTabNavigator();
     return (
         <Tab.Navigator
-            initialRouteName="Home"
+            initialRouteName="Pay"
             screenOptions={{
                 headerShown: false,
                 tabBarStyle: {
                     paddingVertical: Platform.OS === 'ios' ? 20 : 0,
+                    color: "#800080",
                     backgroundColor: "black",
-                    borderTopWidth:10,
-                     borderTopColor:"black",
-                     shadowColor: "#FFFF",
-                     shadowOffset: {
-                         width: 0,
-                         height: 5,
-                     },
-                     shadowOpacity: 0.34,
-                     shadowRadius: 6.27,
-                     elevation: 10,
-                }
+                    borderTopWidth: 10,
+                    borderTopColor: "black",
+                    shadowColor: "#FFFF",
+                    shadowOffset: {
+                        width: 0,
+                        height: 5,
+                    },
+                    shadowOpacity: 0.34,
+                    shadowRadius: 6.27,
+                    elevation: 10,
+                },
+
             }}
         >
             <Tab.Screen name="Home" component={Home} options={{
+                tabBarHideOnKeyboard: true,
                 tabBarIcon: ({ focused }) => {
                     return focused ? <CandleActive /> : <CandleInactive />
                 }
             }} />
             <Tab.Screen name="Mutualfund" component={MutualFunds} options={{
+                tabBarHideOnKeyboard: true,
                 tabBarIcon: ({ focused }) => {
                     return focused ? <FundsActive /> : <FundsInActive />
                 }
             }} />
             <Tab.Screen name="Pay" component={Pay} options={{
+                tabBarHideOnKeyboard: true,
                 tabBarIcon: ({ focused }) => {
                     return focused ? <PayActive /> : <PayInActive />
                 }

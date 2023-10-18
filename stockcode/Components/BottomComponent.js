@@ -7,7 +7,7 @@ import { Styles } from "./styles";
 
 const BottomComponent = (props) => {
     const refRBSheet = useRef();
-    console.log(props.sheet)
+   
     return (
         <View
             style={{
