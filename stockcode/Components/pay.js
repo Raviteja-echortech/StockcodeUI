@@ -27,7 +27,6 @@ const Pay = () => {
 
 
 
-
     return (
         <View>
             <View style={{marginTop:10}} > 

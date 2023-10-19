@@ -8,14 +8,14 @@ import CandleActive from "../assest/CandleActive"
 import CandleInactive from "../assest/CandleInactive"
 import MutualFunds from "./mutualFunds";
 import Pay from './pay';
-import PayActive from "../assest/PayActive"
-import PayInActive from "../assest/PayInActive"
+import PayActive from "../assest/PayActive";
+import PayInActive from "../assest/PayInActive";
 
 const Bottombar = () => {
     const Tab = createBottomTabNavigator();
     return (
         <Tab.Navigator
-            initialRouteName="Pay"
+            initialRouteName="Mutualfund"
             screenOptions={{
                 headerShown: false,
                 tabBarStyle: {
