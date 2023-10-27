@@ -1,8 +1,8 @@
 import React, { useRef, } from "react";
-import { View, Button, Text, TouchableOpacity } from "react-native";
+import { View, Button, Text, TouchableOpacity,TextInput} from "react-native";
 import RBSheet from "react-native-raw-bottom-sheet";
 import Home from "./Home";
-import { TextInput } from "react-native-gesture-handler";
+
 import { Styles } from "./styles";
 
 const BottomComponent = (props) => {

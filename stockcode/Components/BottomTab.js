@@ -8,14 +8,17 @@ import CandleActive from "../assest/CandleActive"
 import CandleInactive from "../assest/CandleInactive"
 import MutualFunds from "./mutualFunds";
 import Pay from './pay';
+import GmailIcon from "../assest/GmailIcon"
+import GmailInActive from "../assest/GmailInActive"
 import PayActive from "../assest/PayActive";
 import PayInActive from "../assest/PayInActive";
+import Gmail from "./gmail";
 
 const Bottombar = () => {
     const Tab = createBottomTabNavigator();
     return (
         <Tab.Navigator
-            initialRouteName="Mutualfund"
+            initialRouteName="gmail"
             screenOptions={{
                 headerShown: false,
                 tabBarStyle: {
@@ -33,8 +36,10 @@ const Bottombar = () => {
                     shadowRadius: 6.27,
                     elevation: 10,
                 },
+                
 
             }}
+            
         >
             <Tab.Screen name="Home" component={Home} options={{
                 tabBarHideOnKeyboard: true,
@@ -42,7 +47,9 @@ const Bottombar = () => {
                     return focused ? <CandleActive /> : <CandleInactive />
                 }
             }} />
-            <Tab.Screen name="Mutualfund" component={MutualFunds} options={{
+            <Tab.Screen name="Mutualfund" component={MutualFunds}
+        
+             options={{
                 tabBarHideOnKeyboard: true,
                 tabBarIcon: ({ focused }) => {
                     return focused ? <FundsActive /> : <FundsInActive />
@@ -52,6 +59,12 @@ const Bottombar = () => {
                 tabBarHideOnKeyboard: true,
                 tabBarIcon: ({ focused }) => {
                     return focused ? <PayActive /> : <PayInActive />
+                }
+            }} />
+            <Tab.Screen name="gmail" component={Gmail} options={{
+                tabBarHideOnKeyboard:true,
+                tabBarIcon:({focused})=>{
+                    return focused ?<GmailIcon/>:<GmailInActive/>
                 }
             }} />
         </Tab.Navigator>

@@ -1,4 +1,4 @@
-import { View, SafeAreaView, Text, Image, FlatList, TouchableOpacity, StatusBar, Dimensions,Button  } from "react-native"
+import { View, SafeAreaView, Text, Image, FlatList, TouchableOpacity, StatusBar, Dimensions, Button } from "react-native"
 import React from "react"
 import Search from "../assest/Search.svg"
 import Qrcode from "../assest/Qrcode.svg"
@@ -6,10 +6,9 @@ import { Styles } from "./styles"
 import TopNavigation from "./topNavigation";
 
 const Home = () => {
-    
 
     return (
-        <SafeAreaView style={Styles.mainpage} >
+        <SafeAreaView style={Styles.mainpage}  >
             <StatusBar backgroundColor="black" />
             <View style={Styles.headerBox} >
                 <View style={Styles.headerarr} >
@@ -24,7 +23,6 @@ const Home = () => {
                     </View>
                 </View>
             </View>
-
             <View style={Styles.niftyIndexes} >
                 <View style={Styles.nifty} >
                     <Text style={Styles.niftyTxt} >NIFTY 50</Text>
@@ -41,8 +39,10 @@ const Home = () => {
                     </View>
                 </View>
             </View>
-            <TopNavigation />  
+            <TopNavigation />
+
         </SafeAreaView>
+
     )
 }
 export default Home

@@ -1,5 +1,5 @@
 import React from "react"
-import { View, Text, FlatList, ScrollView, Dimensions } from "react-native"
+import { View, Text, FlatList, Dimensions } from "react-native"
 import OpenClose from "../assest/OpenClose"
 import Graphbar from "../assest/Graphbar"
 import { Styles } from "./styles"
@@ -27,7 +27,7 @@ const WatchList = () => {
                     showsVerticalScrollIndicator={false}
                     style={{ height: Dimensions.get('window').height * 0.6 }}
                     renderItem={({ item, index }) => (
-                        <View key={item.id}   >
+                        <View key={item.id} >
                             {stockList.length === index + 1 ?
                                 <View style={Styles.watchList} >
                                     <Text style={Styles.commanSaveColor} >{item.editStock}</Text>

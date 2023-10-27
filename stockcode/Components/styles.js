@@ -296,11 +296,187 @@ export const Styles = ScaledSheet.create({
 
     CustomForms: {
         width: "90%",
-        backgroundColor:"gray",
-        borderRadius:"10@s",
-        padding:"15@s",
-        alignSelf:"center",
-        marginBottom:"10@s",
-        marginTop:"30@s"
+        backgroundColor: "gray",
+        borderRadius: "10@s",
+        padding: "15@s",
+        alignSelf: "center",
+        marginBottom: "10@s",
+        marginTop: "30@s"
+    },
+
+
+    //gmail Css
+    cardsArrangment: {
+        flexDirection: "row",
+        justifyContent: "space-between",
+        width: "96%",
+        alignSelf: "center",
+        height: "100@s",
+        backgroundColor: "white"
+    },
+    gmailImages: {
+        width: "35@s",
+        height: "35@s",
+        borderRadius: "17@s",
+        marginTop: "5@s",
+    },
+    titleTxt: {
+        color: "black",
+        fontSize: "15@s",
+        fontWeight: "600",
+        width: "75%"
+    },
+    emailContant: {
+        width: "86%",
+    },
+    subTitle: {
+        color: "black",
+        fontWeight: "400",
+        width: "86%"
+    },
+    descriptionTxt: {
+        color: "black",
+        fontSize: "13@s",
+        width: "85%",
+    },
+    composeBtn: {
+        width: "110@s",
+        height: "50@s",
+        backgroundColor: "#A5E5FF",
+        justifyContent: "center",
+        alignItems: "center",
+        position: "absolute",
+        bottom: "20@s",
+        right: "10@s",
+        flexDirection: "row",
+        borderRadius: "10@s",
+        justifyContent: "space-evenly",
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 8,
+        },
+        shadowOpacity: 0.46,
+        shadowRadius: 11.14,
+
+        elevation: 17,
+    },
+    InboxTxt: {
+        margin: "15@s",
+        fontSize: "12@s",
+        color: "rgba(60, 60, 60, 0.8)",
+        fontWeight: "400"
+    },
+    nameTxt: {
+        width: 30,
+        height: 30,
+        backgroundColor: "#9966CB",
+        justifyContent: "center",
+        alignItems: "center",
+        borderRadius: 20,
+        position: "absolute",
+        right: 10
+    },
+
+    inputTxt: {
+        width: "95%",
+        borderRadius: "40@s",
+        paddingLeft: "40@s",
+        height: "90%"
+    },
+    swipeBackGround: {
+        position: "absolute",
+        backgroundColor: "green",
+        width: "100%",
+        height: 80,
+        justifyContent: "center",
+    },
+    DeleteIcon: {
+        color: "black", marginLeft: 20
+    },
+    //swipe Css
+    container: {
+        backgroundColor: '#f4f4f4',
+        flex: 1,
+    },
+    backTextWhite: {
+        color: '#FFF',
+    },
+    rowFront: {
+        backgroundColor: '#FFF',
+        borderRadius: 5,
+        height: "60@s",
+        margin: "5@s",
+        marginBottom: 15,
+        shadowColor: '#999',
+        shadowOffset: { width: 0, height: 1 },
+        shadowOpacity: 0.8,
+        shadowRadius: 2,
+        elevation: 5,
+    },
+    rowFrontVisible: {
+        backgroundColor: '#FFF',
+        borderRadius: 5,
+        height: 60,
+        padding: 10,
+        marginBottom: 15,
+    },
+    rowBack: {
+        alignItems: 'center',
+        flex: 1,
+        flexDirection: 'row',
+        margin: 5,
+        marginBottom: 15,
+        alignSelf: "center",
+        width: "100%",
+        backgroundColor: "green"
+    },
+    backRightBtn: {
+        alignItems: 'flex-end',
+        bottom: 0,
+        justifyContent: 'center',
+        position: 'absolute',
+        top: 0,
+        width: 75,
+        paddingRight: 17,
+
+    },
+    selectionBox: {
+        flexDirection: "row",
+        justifyContent: "space-between",
+        width: "95%",
+        // backgroundColor: "red"
+
+    },
+    backRightBtnLeft: {
+        backgroundColor: '#1f65ff',
+        right: 75,
+    },
+    backRightBtnRight: {
+        backgroundColor: 'red',
+        right: 0,
+        borderTopRightRadius: 5,
+        borderBottomRightRadius: 5,
+    },
+    trash: {
+        height: 25,
+        width: 25,
+        marginRight: 7,
+    },
+    title: {
+        fontSize: 14,
+        fontWeight: 'bold',
+        marginBottom: 5,
+        color: '#666',
+    },
+    details: {
+        fontSize: 12,
+        color: 'black',
+    },
+    starSelection: {
+        width: "15%",
+        justifyContent: "center",
+        alignItems: "center",
+        // backgroundColor:"red"
     }
 })
